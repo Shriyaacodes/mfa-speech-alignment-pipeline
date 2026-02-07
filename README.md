@@ -1,8 +1,8 @@
-## Project Overview
+# Project Overview
 
 This project uses Montreal Forced Aligner (MFA) to align speech audio with text at word and phoneme levels. I processed 6 audio files (~97 seconds) and improved alignment accuracy by manually handling out-of-vocabulary (OOV) words using custom phonetic pronunciations.
 
-# Forced Alignment with Montreal Forced Aligner
+## Forced Alignment with Montreal Forced Aligner
 I built an automatic speech alignment system using MFA that takes audio recordings and matches them with text transcripts at the word and phoneme level. Processed 6 audio files to get precise timing for every sound.
 
 ## What It Does
