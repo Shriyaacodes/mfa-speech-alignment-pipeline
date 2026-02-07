@@ -1,0 +1,6 @@
+# Exclude large files from GitHub
+wav/
+outputs/before_oov/*.TextGrid
+outputs/after_oov/*.TextGrid
+*.wav
+*.TextGrid
