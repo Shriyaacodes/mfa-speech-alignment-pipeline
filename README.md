@@ -128,6 +128,27 @@ The difference is dramatic. In the BEFORE version, "Dukakis" shows up as "spn" (
 
 See `praat_analysis/` folder for screenshots.
 
+
+
+## Visual Results: Praat Analysis
+
+### Before OOV Handling
+The word "Dukakis" shows as "spn" (spoken noise) because it wasn't in the dictionary:
+
+![Dukakis Before OOV](praat_analysis/Dukasis_before_OOV.png)
+
+### After OOV Handling  
+After adding custom pronunciation, "Dukakis" shows proper phoneme boundaries (D, UW, K, AA, K, IH, S):
+
+![Dukakis After OOV](praat_analysis/Dukasis_after_OOV.png)
+
+### What This Shows
+- **Top**: Audio waveform
+- **Middle**: Spectrogram (frequency visualization)
+- **Bottom tiers**: Word boundaries and phoneme segmentation
+
+The improvement is clear - from generic "spn" to detailed phoneme-by-phoneme alignment.
+
 ## References
 
 - [MFA Documentation](https://montreal-forced-aligner.readthedocs.io/)
